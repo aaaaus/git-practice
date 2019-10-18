@@ -6,17 +6,16 @@ to discard them, you can correct the situation with the following commands
 ```
 git reset --soft HEAD~1
 ```
-
 -this will revert the most recent commit; changes will still be staged
+
 
 ```
 git reset HEAD <file>
 ```
-
 -this will unstage the changes you wish to discard
+
 
 ```
 git checkout -- <file>
 ```
-
 -this will discard all the changes made to the local files
