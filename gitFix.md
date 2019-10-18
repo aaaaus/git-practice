@@ -11,12 +11,16 @@ git reset --soft HEAD~1
 
 ```
 git reset HEAD <file>
+or
+git restore --staged <file>
 ```
 
 -this will unstage the changes you wish to discard
 
 ```
 git checkout -- <file>
+or
+git restore <file>
 ```
 
 -this will discard all the changes made to the local files
