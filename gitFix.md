@@ -1,4 +1,4 @@
-# ISSUE: local master branch was committed to; diverged from remote master
+### ISSUE: local master branch was committed to; diverged from remote master
 
 If the changes made on the local master branch were in error and you wish
 to discard them, you can correct the situation with the following commands
