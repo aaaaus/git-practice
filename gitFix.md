@@ -1,16 +1,22 @@
-#ISSUE: local master branch was committed to; diverged from remote master
+# ISSUE: local master branch was committed to; diverged from remote master
 
 If the changes made on the local master branch were in error and you wish
 to discard them, you can correct the situation with the following commands
 
+```
 git reset --soft HEAD~1
+```
 
 -this will revert the most recent commit; changes will still be staged
 
+```
 git reset HEAD <file>
+```
 
 -this will unstage the changes you wish to discard
 
+```
 git checkout -- <file>
+```
 
 -this will discard all the changes made to the local files
